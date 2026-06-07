@@ -1,0 +1,28 @@
+# Secrets / local config
+config.env
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+vendor/
+
+# Docker volumes (docker-compose)
+/zookeeper/
+/kafka_data/
+/data/
+/config/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/settings.local.json
